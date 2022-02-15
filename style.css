@@ -1,0 +1,132 @@
+
+
+body{
+ text-align: center;
+  color: rgb(253, 240, 213);
+}
+
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 0px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+   font: 12pt calibri;
+     text-transform: uppercase;
+    color: rgb(102, 155, 188);
+}
+
+li a:hover {
+  background-color: rgb(236, 228, 219);
+}
+
+.title {
+ font-size: 30px;
+
+}
+
+.options {
+
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  padding; 30px 10%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 9px 25px;
+  overflow: hidden;
+
+  font-size: 25px;
+}
+
+h1{
+  font: 24pt calibri;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(102, 155, 188);
+  font-size: 50px;
+}
+
+.img1{
+
+width: 800px;
+length: 800px;
+}
+/* Brief history */
+
+.column {
+  float: right;
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+}
+
+.history {
+   color: rgb(193, 18, 31);
+font: 20pt calibri;
+
+}
+
+.img2{
+  padding: 9px 75px;
+  width: 500px;
+  length: 500px;
+}
+
+.info1 {
+ font: 15pt calibri;
+ color: rgb(120, 0, 0);
+ padding: 9px 75px;
+
+}
+
+.img3{
+  padding: 9px 75px;
+  width: 550px;
+  length: 500px;
+}
+
+.img4{
+  padding: 9px 75px;
+  width: 550px;
+  length: 500px;
+
+}
+
+h4{
+ font-weight: bolder;
+  font: 20pt calibri;
+  color: black;
+  font-style: italic;
+}
+
+
+.support{
+  margin-right: inherit;
+  font: 15pt calibri;
+  color: rgb(120, 0, 0);
+  text-align: center;
+}
